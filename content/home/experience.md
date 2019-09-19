@@ -50,7 +50,7 @@ date_format = "Jan 2006"
   * Active Metal Brazing  
 
   
-  Club Activity : Robot Creat Club (Robo+ism)  
+  Club Activity : Robot Create Club (Robo+ism)  
   NHK学生ロボコン 
   
   * Robocon2016 ピットメンバー
