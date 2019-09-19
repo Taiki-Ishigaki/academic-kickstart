@@ -17,7 +17,7 @@ organizations:
 - name: The University of Tokyo
   url: ""
 - name: YNL(力学制御システム研究室)
-  url: ""
+  url: "http://www.ynl.t.u-tokyo.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include humanoid robotics.
