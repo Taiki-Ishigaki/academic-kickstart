@@ -41,7 +41,9 @@ date_format = "Jan 2006"
   date_start = "2015-04-01" 
   date_end = "2019-03-31" 
   description = """ 
-  Major : Materila Sience and Engineering 
+  Major : Material Sience and Engineering  
+
+  Minor Major : Robotics and Mechatronics
 
   Research :  
  
