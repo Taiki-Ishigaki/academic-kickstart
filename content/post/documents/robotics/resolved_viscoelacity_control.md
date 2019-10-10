@@ -154,7 +154,7 @@ $$ \boldsymbol{C {J^T}^{\dagger} = J C_{\theta}} \tag{22}$$
 $$ \rm{min} \  \frac{1}{2} \parallel \boldsymbol{Y^{-1} - C_{\theta}} \parallel ^2 \\
 \rm{subject\ to} \  \boldsymbol{C {J^T}^{\dagger} = JC_{\theta}} \tag{23}$$
 
-$$ \boldsymbol{C_{\theta} = J^{\sharp}C{J^T}^{\dagger} + (E - J^{\sharp}J^T) Y^{-1}} \tag{24} $$
+$$ \boldsymbol{C_{\theta} = J^{\sharp}C{J^T}^{\dagger} + (E - J^{\sharp}J) Y^{-1}} \tag{24} $$
 
 ## 付録
 
@@ -170,7 +170,7 @@ L = \rm{min} \  \frac{1}{2} \parallel \boldsymbol{Y^{-1} - C_{\theta}} \parallel
 $$
 
 $$
-\frac{\partial L}{\partial C_{\theta}} = (Y^{-1} - C_{\theta}) + J^T \lambda  = 0 \tag{25}
+\frac{\partial L}{\partial C_{\theta}} = - (Y^{-1} - C_{\theta}) + J^T \lambda  = 0 \tag{25}
 $$
 
 $$
