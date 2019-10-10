@@ -17,7 +17,7 @@ tags : []
 
 ## 数式の準備
 
-###　微分運動学
+### 微分運動学
 
 $$ \boldsymbol{J = \frac{\partial x}{\partial \theta} } \tag{1} $$
 
