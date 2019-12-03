@@ -17,7 +17,9 @@ tags : ["hugo-academic"]
 　 https://github.com/gohugoio/hugo/releases  
 
 以下のようにダウンロード(20191203)
-`wget https://github.com/gohugoio/hugo/releases/download/v0.60.1/hugo_0.60.1_Linux-64bit.deb`
+```sh
+wget https://github.com/gohugoio/hugo/releases/download/v0.60.1/hugo_0.60.1_Linux-64bit.deb
+```
 
 以下のコマンドでインストール
 ```
