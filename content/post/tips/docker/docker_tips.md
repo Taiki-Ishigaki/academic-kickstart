@@ -6,7 +6,7 @@ date: "2019-12-13"
 markup: mmark
 abstruct: ""
 draft: false
-categories : ["docker"]
+categories : ["docker", "tips"]
 tags : []
 ---
 
