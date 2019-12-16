@@ -19,10 +19,9 @@ ORB_SLAM2をcloneする際に
 ```sh
 git clone https://github.com/raulmur/ORB_SLAM2.git ORB_SLAM2
 ```
-ではなく
+ではなく自分のレポジトリをcloneしブランチをubuntu18.04に変更する
 ```sh
 git clone https://github.com/taiki-ishigaki/ORB_SLAM2.git ORB_SLAM2
 git checkout ubuntu18.04
 ```
-としブランチをubuntu18.04に変更すること
 これによってubuntu18.04ようにプログラムなどを変更する必要がなくなる
