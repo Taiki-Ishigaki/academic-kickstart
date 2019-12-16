@@ -31,6 +31,37 @@ hugo version
 ```  
 でバージョンを確認することができる
 
+## hugo 基本操作
+ 
+### ビルド
+
+```sh
+hugo
+```
+
+### 記事をローカルブラウザで確認
+
+```sh
+hugo server
+```
+
+#### hugo server オプション
+
+ファイルの変更を検知して自動検知
+```sh
+hugo server -w
+```
+
+ドラフト記事も生成
+```sh
+hugo server -D
+```
+
+未来の記事を生成
+```sh
+hugo server -F
+```
+
 ## academic-kickstar
 
 ### Setting
