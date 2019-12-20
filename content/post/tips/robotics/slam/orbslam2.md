@@ -9,7 +9,7 @@ draft: true
 categories : ["robotics-tips", "ros"]
 tags : []
 ---
-# ubuntu18.04 ros:melodicでORBSLAM2
+## ubuntu18.04 ros:melodicでORBSLAM2
 [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2)を利用する。
 [自分のレポジトリ](https://github.com/Taiki-Ishigaki/ORB_SLAM2)にForkし，Ubutntu18.04用にプログラムを変更した。
 
@@ -25,3 +25,9 @@ git clone https://github.com/taiki-ishigaki/ORB_SLAM2.git ORB_SLAM2
 git checkout ubuntu18.04
 ```
 これによってubuntu18.04ようにプログラムなどを変更する必要がなくなる
+
+## ORBSLAMからpublich
+```sh
+cd ~/ros_dev/ORB_SLAM2/
+osrun ORB_SLAM2 Mono_Pub Vocabulary/ORBvoc.txt Examples/Monocular/TUM1.yaml
+```
