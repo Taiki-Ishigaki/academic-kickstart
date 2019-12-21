@@ -6,7 +6,7 @@ date: "2019-12-16"
 markup: mmark
 abstruct: ""
 draft: false
-categories : ["ros"]
+categories : ["ros","robotics"]
 tags : []
 ---
 ## 初めてのROS
@@ -42,6 +42,9 @@ source ~/catkin_ws/devel/setup.bash
 ```sh
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
+
+### catkin
+[参考ページ](https://catkin-tools.readthedocs.io/en/latest/installing.html)
 
 ## RViz
 
