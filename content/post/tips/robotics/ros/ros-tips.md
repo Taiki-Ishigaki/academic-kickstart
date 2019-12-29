@@ -66,6 +66,22 @@ tfはリスナの問い合わせに対してブロードキャストによって
 - リスナ
 異なる2フレーム間の相対位置を取得
 
+### ブロードキャスト
+
+#### コード
+
+StaticTransformBroadcasterとTransformBroadcasterに2種類がある
+
+#### ツール
+
+```sh
+rosrun tf2ros static_transform_publisher x y z yaw pitch roll frame_id child_frame_id
+```
+もしくは
+```sh
+rosrun tf2ros static_transform_publisher x y z qx qy qz qw frame_id child_frame_id
+```
+
 ## rqt 
 
 ### Robot Steering
