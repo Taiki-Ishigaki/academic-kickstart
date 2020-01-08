@@ -91,3 +91,9 @@ rqt
 
 Plugins->Robot Tools->Robot Steering
 トピック名を変更
+
+### image
+```sh
+rqt_image_view
+```
+トピック名を選択して画像を確認することができる
