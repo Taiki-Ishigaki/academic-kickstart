@@ -20,7 +20,7 @@ organizations:
   url: "http://www.ynl.t.u-tokyo.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include humanoid robotics.
+bio: My research is humanoid robotics.
 
 interests:
 - Humanoid Robot
@@ -28,9 +28,9 @@ interests:
 
 education:
   courses:
-  - course: Master Information Science and Tecnology in Mechano-Infomatics
-    institution: The University of Tokyo
-    year: 
+  #- course: Master Information Science and Tecnology in Mechano-Infomatics
+  #  institution: The University of Tokyo
+  #  year: 
   - course: Bachelor Engineering Science in Material Science and Engineering
     institution: Yokohama National University
     year: 2019
