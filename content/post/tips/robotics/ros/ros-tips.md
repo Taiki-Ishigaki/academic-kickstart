@@ -82,6 +82,23 @@ rosrun tf2ros static_transform_publisher x y z yaw pitch roll frame_id child_fra
 rosrun tf2ros static_transform_publisher x y z qx qy qz qw frame_id child_frame_id
 ```
 
+## rostopic
+
+トピックの確認
+```sh
+rostopic list
+```
+
+トピックの内容確認
+```sh
+rostopic echo <topic_name>
+```
+
+トピックが送信されてるか確認
+```sh
+rostopic hz <topic_name>
+```
+
 ## rqt 
 
 ### Robot Steering
@@ -91,3 +108,25 @@ rqt
 
 Plugins->Robot Tools->Robot Steering
 トピック名を変更
+
+### rqt_image_view
+
+imageトピックを確認する
+```sh
+rqt_image_view
+```
+
+## joy
+
+ジョイコントローラ用のパッケージ
+
+### joy用のパッケージのインストール
+```sh
+sudo apt-get install ros-kinetic-joy
+sudo apt-get install ros-kinetic-joystick-drivers
+```
+
+### 実行
+```sh
+rosrun joy joy_node
+```
