@@ -109,7 +109,6 @@ rqt
 Plugins->Robot Tools->Robot Steering
 トピック名を変更
 
-<<<<<<< HEAD
 ### rqt_image_view
 
 imageトピックを確認する
@@ -131,10 +130,3 @@ sudo apt-get install ros-kinetic-joystick-drivers
 ```sh
 rosrun joy joy_node
 ```
-=======
-### image
-```sh
-rqt_image_view
-```
-トピック名を選択して画像を確認することができる
->>>>>>> 1465038dcfec788c21a58c1c7d988de45e473114
